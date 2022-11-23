@@ -1,1 +1,1 @@
-text
+Compania vrea sa dezvolte o aplicatie de tip media player cu playlisturi formate din videoclipuri, gif-uri, melodii sau alte playlisturi. Fiecare element are ca si parametrii titlu si dimensiunea. Se cere set de operatii care calculeaza dimensiunea totala a fiecarei categorii de element redabil si dimensiunea totala a playlistului curent. De implementat model care permite combinarea tipurilor de date si suportarea operatiei.
