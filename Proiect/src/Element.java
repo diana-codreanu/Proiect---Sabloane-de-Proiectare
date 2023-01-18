@@ -1,22 +1,10 @@
-import java.util.List;
+package Lab;
 
-public class Element {
+public interface Element {
+    void print();
+    void accept(Visitor v);
+    void add(Element e);
+    void remove(Element e);
+    Element get(int index);
 
-    public List<Element> myList;
-
-    public void add(Element element)
-    {
-        myList.add(element);
-    }
-    public void remove(Element element)
-    {
-        myList.remove(element);
-    }
-    public void get(int id){
-        myList.get(id);
-    }
-    public void print()
-    {
-
-    }
 }

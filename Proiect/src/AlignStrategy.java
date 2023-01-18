@@ -1,7 +1,5 @@
-public class AlignStrategy {
-    public String AlignmentType;
+package Lab;
 
-    public AlignStrategy(String alignmentType) {
-        AlignmentType = alignmentType;
-    }
+public interface AlignStrategy {
+    void render(Paragraph par);
 }

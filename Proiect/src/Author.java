@@ -1,11 +1,15 @@
+package Lab;
+
 public class Author {
-    public String name;
-    public void print()
-    {
-        //something
+    private final String author;
+
+    public Author(String author) {
+
+        this.author = author;
     }
 
-    public Author(String name) {
-        this.name = name;
+    public void print(){
+
+        System.out.println("Lab.Author: "+ author);
     }
 }
